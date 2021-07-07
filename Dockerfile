@@ -11,3 +11,5 @@ RUN set -e; \
     usermod -a -G gpio node;
 
 USER node
+
+RUN npm install del request
